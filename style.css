@@ -1,0 +1,130 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  border-color: rgba(209, 96, 79, 1);
+  border-width: 3px;
+  max-width: 65px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: url(bobe.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3em;
+/*  position: relative;
+  top: 180px;
+  left: 255px;
+  /*display: flex;
+  justify-content: center;*/*/
+  
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+.btn {
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: black;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ffc107;
+  --bs-btn-border-color: #ffc107;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ffc107;
+  --bs-btn-hover-border-color: #ffc107;
+  --bs-btn-focus-shadow-color: rgba(255, 193, 7, 0) !important;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffc107;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #ffc107;
+}
+.btn-primary:hover {
+  background-color: #ffd865;
+  border-color: #ffd865;
+  border-width: 4px;
+  color: black;
+
+
+}
+
+}
+.me-2{
+  background-color: #fce001;
+  color: black;
+  border-color: #fce001;
+}
+.me-2:hover {
+  background-color: black;
+  color: whitesmoke;
+  border-color: black;
+  border-width: 3px;
+}
+^#about {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3em;
+  font-weight: bold;
+
+}
+.logo {
+  margin-right: 0px;
+  position: relative;
+  top: 50px;
+}
+p {
+  color: rgba(255, 255, 255, 0.7) ;
+}
+.about-container {
+  margin-bottom: 500px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.navbar-brand {
+  color: #e9ecef;
+}
+
+.github-link {
+  position: relative;
+  left: 38px;
+  top: 7px;
+  color:#212529;
+  text-decoration: underline;
+}
+.instagram-link {
+  position: relative;
+  left: 22px;
+  top: 7px;
+  color:#212529;
+  text-decoration: underline;
+  transition: all 500ms;
+}
+#instagram {
+    transition: all 300ms;
+}
+#instagram:hover {
+  transform: scale(1.1);
+}
+#github {
+    transition: all 300ms;
+}
+#github:hover {
+  transform: scale(1.1);
+  }
